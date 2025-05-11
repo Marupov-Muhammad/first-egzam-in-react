@@ -1,0 +1,203 @@
+.divAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divFisrst {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.divCrat {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.bigText {
+  font-size: 50px;
+}
+
+.felx {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.flexbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #0075FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.textCenter {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tCenter {
+  text-align: center;
+  width: 250px;
+  margin-top: 50px;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allyour {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.centerAlltext {
+  text-align: center;
+  margin-top: 30%;
+}
+
+.flexing {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.border {
+  border: 1px solid black;
+  background-color: #211F54;
+  color: white;
+  padding-right: 100px;
+  border-radius: 30px;
+  margin-top: 100px;
+}
+
+.bossFlex {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+
+.quote-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: grid;
+  gap: 15px;
+  flex: 1 1 100%;
+}
+
+.quote-form input,
+.quote-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.quote-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.footer {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+@media (max-width: 1200px) and (min-width: 300px) {
+  .divAll {
+    flex-direction: column;
+  }
+
+  .sec1 {
+    flex-direction: column;
+  }
+
+  .sec2 {
+    flex-direction: column;
+    margin-left: 500px;
+    margin: auto;
+  }
+
+  .city {
+    flex-direction: column;
+  }
+
+  .border {
+    width: 70%;
+    margin: auto;
+  }
+
+  .forMedia {
+    flex-direction: column;
+  }
+
+  .bossFlex {
+    flex-direction: column;
+  }
+  .kldnjwfkr {
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+  }
+
+  .emkojibgwr {
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+
+  .main {
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+  .footer {
+    margin-top: 200px;
+    width: 80%;
+    margin: auto;
+  }
+  .finish {
+    width: 80%;
+    margin: auto;
+  }
+}
